@@ -1,0 +1,13 @@
+// ETSoldado.h
+#pragma once
+#include "CoreMinimal.h"
+#include "EnemigoTerrestre.h"
+#include "ETSoldado.generated.h"
+
+UCLASS()
+class NAVESUSFX_022026_API AETSoldado : public AEnemigoTerrestre
+{
+	GENERATED_BODY()
+public:
+	AETSoldado();
+};
